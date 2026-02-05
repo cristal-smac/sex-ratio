@@ -26,8 +26,8 @@ Le fichier ratio-sexuel.nlogo contient le code correspondant écrit en [Netlogo]
 
 ## Commands
 
-- `M-Bias-30`, `M-Bias-40`, `M-Bias-50`, `M-Bias-60` sont les curseurs permettant de régler la population de mâles au départ. `F-Bias-30` sont des mâles ayant une probabilité de donner naissance à un mâle de 30% (et donc de 70% de donner naissance à une femelle) lors d'une naissance.
-- `F-Bias-30`, `F-Bias-40`, `F-Bias-50`, `F-Bias-60` sont les curseurs permettant de régler la population de femelles au départ. `F-Bias-30` sont des femelles ayant une probabilité de donner naissance à un mâle de 30% (et donc de 70% de donner naissance à une femelle) lors d'une naissance.
+- `Male-30`, `Male-40`, `Male-50`, `Male-60` sont les curseurs permettant de régler la population de mâles au départ. `Female-30` sont des mâles ayant une probabilité de donner naissance à un mâle de 30% (et donc de 70% de donner naissance à une femelle) lors d'une naissance.
+- `Female-30`, `Female-40`, `Female-50`, `Female-60` sont les curseurs permettant de régler la population de femelles au départ. `Female-30` sont des femelles ayant une probabilité de donner naissance à un mâle de 30% (et donc de 70% de donner naissance à une femelle) lors d'une naissance.
 - `heritage` permet de choisir la méthode d'héritage génétique d'un nouvel enfant. `parent` affecte au nouveau né le biais de son parent de même sexe. `random` affecte au nouveau né soit le biais du père, soit le biais de la mère, aléatoirement. 
 - `proportion-strats-string` est le vecteur indiquant la proportion de chaque stratégie lors de reproduction pour un nouveau couple. La stratégie est choisie aléatoirement dans ce vecteur. 10 stratégies sont possibles. Les 7 premières non eugénistes, les 3 dernières eugénistes. Il doit impérativement y avoir 10 valeurs et la somme doit faire 1.0
 - `Setup` permet d'initialiser la simulation avec les paramètres ci-dessous
