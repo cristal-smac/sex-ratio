@@ -21,7 +21,7 @@ Le fichier ratio-sexuel.nlogo contient le code correspondant écrit en [Netlogo]
 1. téléchargez le fichier (bouton Code (vert) puis "download ZIP")
 2. allez sur https://netlogoweb.org/
 3. cliquez sur "Run in your Browser" puis en haut à droite "parcourir"
-4. chargez le fichier sauvegardé (ratio-sexuel.nlogo) 
+4. chargez le fichier sauvegardé (sex-ratio-model.nlogo) 
 
 
 ## Commands
