@@ -33,4 +33,8 @@ Le fichier ratio-sexuel.nlogo contient le code correspondant écrit en [Netlogo]
 - `Setup` permet d'initialiser la simulation avec les paramètres ci-dessous
 - `Male-cost`, `Female-cost`, `budget` sont les curseurs de contraintes budgétaires. `budget` est le montant affecté à chaque couple pour l'ensemble de ses naissances. `Male-cost` et `Female-cost` sont respectivement les couts d'élevage d'un mâle et d'une femelle.
 - `VerifLower?` est un switch qui permet, quand il est "on", d'avoir une popup qui s'affiche quand la population baisse sous la population initiale. C'est juste une information. En validant la popup, la simulation continue
-- `Go` permet de lancer l'expérience. Soit en effectuant un tick de simulation, soit en la faisant tourner indéfiniment 
+- `Go` permet de lancer l'expérience. Soit en effectuant un tick de simulation, soit en la faisant tourner indéfiniment
+
+## Publications
+- Jean-Paul Delahaye, Philippe Mathieu. "Le «sex-ratio» à la lumière des systèmes multi-agents." Pour la Science 584.6 (2026): 68-74.
+- Philippe Mathieu, Jean-Paul Delahaye. "Le sexe des agents". Journées Francophones sur les Systèmes Multi-Agents (JFSMA 2026). Cépadues ed. pp
